@@ -30,6 +30,7 @@ body {
   background-position: top center;
   background-size: cover;
   margin: 0;
+  overflow: hidden;
 }
 
 /* ---- particles.js container ---- */
@@ -51,7 +52,7 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px;
+  margin: 16px auto 0px;
   padding: 0px 24px;
 }
 
