@@ -14,64 +14,88 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="container">
-      <div id="profile">
-        <img src="./assets/avatar.png" alt="mano seidler com beck bolado" />
-        <p>@MauricioKrziminski</p>
+    <div id="particles-js">
+      <div id="container">
+        <div id="profile">
+          <img src="./assets/avatar.png" alt="mano seidler com beck bolado" />
+          <p>@MauricioKrziminski</p>
+        </div>
+        <div id="switch" onclick="toggleMode()">
+          <button></button>
+          <span></span>
+        </div>
+        <ul>
+          <li>
+            <a
+              href="./assets/Curriculo  - Maurício Krziminski.pdf"
+              target="_blank"
+              >Acesse meu currículo</a
+            >
+          </li>
+
+          <li>
+            <a href="https://github.com/MauricioKrziminski" target="_blank"
+              >Veja meu portfólio</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/MauricioKrziminski?tab=repositories"
+              target="_blank"
+              >Veja meus repositórios</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://linkedin.com/in/maurício-krziminski"
+              target="_blank"
+              >Acesse meu LinkedIn</a
+            >
+          </li>
+        </ul>
+        <div id="social-links">
+          <a href="https://github.com/MauricioKrziminski" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+
+          <a href="https://instagram.com/Krziminskii" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="https://youtube.com/@MauricioKrziminski" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+
+          <a href="https://linkedin.com/in/maurício-krziminski" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <footer>
+          © 2023
+          <a href="https://linkedin.com/in/maurício-krziminski" target="_blank">
+            Maurício Krziminski</a
+          >
+        </footer>
       </div>
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
-      <ul>
-        <li>
-          <a href="#" target="_blank">Inscrever-se no Delga</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank">Baixar meu e-book</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank">Veja meu portfólio</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank">Conheça o explorer</a>
-        </li>
-      </ul>
-      <div id="social-links">
-        <a href="https://github.com/MauricioKrziminski" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
-
-        <a href="https://instagram.com/Krziminskii" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-
-        <a href="https://youtube.com/@MauricioKrziminski" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-
-        <a href="https://linkedin.com/in/maurício-krziminski" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
-      </div>
-      <footer>
-        © 2023
-        <a href="https://instagram.com/Krziminskii" target="_blank">
-          Maurício Krziminski</a
-        >
-      </footer>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="./script.js"></script>
+      <script src="js/particles.min.js"></script>
+      <script src="js/script.js"></script>
+      <canvas
+        class="particles-js-canvas-el"
+        style="width: 100%; height: 100%"
+        width="1343"
+        height="175"
+      ></canvas>
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="./script.js"></script>
   </body>
 </html>
