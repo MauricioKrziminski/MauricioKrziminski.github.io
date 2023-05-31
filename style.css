@@ -31,6 +31,9 @@ body {
   background-size: cover;
   margin: 0;
   overflow: hidden;
+  @media (max-height: 768px) {
+    overflow: auto;
+  }
 }
 
 /* ---- particles.js container ---- */
