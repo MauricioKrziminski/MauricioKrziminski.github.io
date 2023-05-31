@@ -30,7 +30,10 @@ body {
   background-position: top center;
   background-size: cover;
   margin: 0;
-  overflow: hidden;
+  @media (max-height: 768px) {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 /* ---- particles.js container ---- */
