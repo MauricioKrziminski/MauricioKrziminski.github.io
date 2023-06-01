@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 50,
+      value: 80,
       density: {
         enable: true,
         value_area: 800,
@@ -23,6 +23,7 @@ particlesJS("particles-js", {
         src: "img/github.svg",
         width: 100,
         height: 100,
+        type: "circle",
       },
     },
     opacity: {
@@ -47,21 +48,21 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 150,
+      distance: 180,
       color: "#ffffff",
       opacity: 0.4,
-      width: 1,
+      width: 2,
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 5,
       direction: "none",
       random: false,
       straight: false,
       out_mode: "out",
       bounce: false,
       attract: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 1200,
       },
@@ -72,7 +73,7 @@ particlesJS("particles-js", {
     events: {
       onhover: {
         enable: true,
-        mode: "grab",
+        mode: "repulse",
       },
       onclick: {
         enable: true,
@@ -82,7 +83,7 @@ particlesJS("particles-js", {
     },
     modes: {
       grab: {
-        distance: 140,
+        distance: 400,
         line_linked: {
           opacity: 1,
         },
@@ -95,7 +96,7 @@ particlesJS("particles-js", {
         speed: 3,
       },
       repulse: {
-        distance: 200,
+        distance: 100,
         duration: 0.4,
       },
       push: {
