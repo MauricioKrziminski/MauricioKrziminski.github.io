@@ -37,7 +37,7 @@ particlesJS("particles-js", {
       },
     },
     size: {
-      value: 3,
+      value: 2,
       random: true,
       anim: {
         enable: false,
@@ -51,11 +51,11 @@ particlesJS("particles-js", {
       distance: 180,
       color: "#ffffff",
       opacity: 0.4,
-      width: 2,
+      width: 1,
     },
     move: {
       enable: true,
-      speed: 5,
+      speed: 6,
       direction: "none",
       random: false,
       straight: false,
@@ -77,7 +77,7 @@ particlesJS("particles-js", {
       },
       onclick: {
         enable: true,
-        mode: "push",
+        mode: "remove",
       },
       resize: true,
     },
@@ -96,8 +96,8 @@ particlesJS("particles-js", {
         speed: 3,
       },
       repulse: {
-        distance: 100,
-        duration: 0.4,
+        distance: 70,
+        duration: 1,
       },
       push: {
         particles_nb: 4,
