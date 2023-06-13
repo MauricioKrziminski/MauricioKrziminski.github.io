@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile-dark.jpg);
+  --bg-url: #292929;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: #f0f0f0;
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.09);
@@ -25,7 +25,9 @@
 }
 
 body {
-  background-image: var(--bg-url);
+  --dark-bg-color: #292929;
+  --light-bg-color: #c0c0c0;
+  background-color: var(--dark-bg-color);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -36,6 +38,10 @@ body {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }
+}
+
+.light body {
+  background-color: var(--light-bg-color);
 }
 
 /* ---- particles.js container ---- */
